@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.cryptopricetracker"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.cryptopricetracker"
@@ -45,4 +45,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 }
